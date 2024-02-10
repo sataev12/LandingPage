@@ -144,6 +144,68 @@ nav{
     text-align: center;
     padding-top: 5em;
 }
+/*SECTION .container-quatre*/
+.container-quatre {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
+.discription{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
 
+}
+
+.discription p{
+    font-size: smaller;
+    color: rgb(205 205 205);
+}
+
+.discription h1 {
+    font-weight: 600;
+}
+
+.collectives{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.photo-personnelle img{
+    width: 11em;
+    height: 11em;
+    border-radius: 50%;
+    image-rendering: pixelated;
+}
+
+.card-personne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.card-personne p{
+    color: rgb(205 205 205);
+    font-size: 0.9em;
+}
+
+.card-personne h1{
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.reiting-personnelle, .info-personnelle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reiting-personnelle{
+    margin-bottom: 2em;
+}
 
