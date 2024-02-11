@@ -209,3 +209,29 @@ nav{
     margin-bottom: 2em;
 }
 
+/*container-cinq */
+
+.container-cinq{
+    position: relative;
+    height: 60vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 1px;
+    /* background-size: cover; */
+}
+
+.parallax-image {
+    width: 100%;
+    height: auto;
+    transform-style: preserve-3d;
+    transform: translateZ(-1px) scale(2);
+    filter: brightness(0.5);
+}
+
+
+
+.container-cinq-text{
+    height: 40vh;
+}
+
+
